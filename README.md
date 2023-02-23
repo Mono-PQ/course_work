@@ -1,7 +1,7 @@
 # Course Work Repository 
 
 ## Table of Content 
-1. [Financial Calculation](#financial-calculator)
+1. [Financial Calculator](#financial-calculator)
 
 ## Financial Calculator
 A simple python program to compute simple interest and compound interest based on principal amouunt, annual interest rate, and time period inputted by the user.
