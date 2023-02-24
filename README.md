@@ -12,6 +12,7 @@ A simple python program to compute simple interest and compound interest based o
 
 To run the program, you can download the `.py` file from 1_financial-calculator folder to your local machine and run the file using `python financial-calculator.py`.
 
+<hr />
 
 ### Singapore Attractions Search Menu
 A menu system that allows user to search Singapore's attractions based on keyword or budget from `singapore_attractions.csv` file that contains data scrapped from [tripadvisor](https://www.tripadvisor.com.sg/Attraction_Products-g294265-zfg12131-Singapore.html). User may also print/save the results to a text file if they so wish. 
@@ -48,6 +49,7 @@ Bye,Bye
 
 To run the program, you need to download the `Singapore Attactions Search Menu` folder and run the python script via your terminal window.
 
+<hr />
 
 ### Account Transaction
 An account transaction program that tracks and records each transaction associated with the account. Transactions are only limited to deposit and withdrawal. Doubly-linked list is used to represent the transaction in each node. 
@@ -63,4 +65,5 @@ The time complexity for inserting a node at the end of a doubly linked list is `
 
 Doubly linked list is more flexible in terms of memory usage where references to data are stored as part of their own element. Thus, modifications (such as inserting or deleting memory references to the data) is more efficient by updating the references of the nodes of the affected insert or deletion. 
 
+<hr />
 
