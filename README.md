@@ -6,6 +6,7 @@
     - [Financial Calculator](#financial-calculator)
     - [Singapore Attractions Search Menu](#singapore-attractions-search-menu)
     - [Account Transaction](#account-transaction)
+    - [K Nearest Neighours Function](#k-nearest-neighours-function)
 
 ### Financial Calculator
 A simple python program to compute simple interest and compound interest based on principal amouunt, annual interest rate, and time period inputted by the user.
@@ -67,3 +68,5 @@ Doubly linked list is more flexible in terms of memory usage where references to
 
 <hr />
 
+### K Nearest Neighours Function 
+Implementation of K-Nearest Neighours algorithm to classify the age of abalone. Dataset originates from [UCI Machine Learning repository](https://archive.ics.uci.edu/ml/datasets/Abalone). 
