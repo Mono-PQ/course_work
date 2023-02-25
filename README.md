@@ -7,6 +7,7 @@
     - [Singapore Attractions Search Menu](#singapore-attractions-search-menu)
     - [Account Transaction](#account-transaction)
     - [K Nearest Neighours Function](#k-nearest-neighours-function)
+    - [Linear Regression Function](#linear-regression-function)
 
 ### Financial Calculator
 A simple python program to compute simple interest and compound interest based on principal amouunt, annual interest rate, and time period inputted by the user.
@@ -70,3 +71,11 @@ Doubly linked list is more flexible in terms of memory usage where references to
 
 ### K Nearest Neighours Function 
 Implementation of K-Nearest Neighours algorithm to classify the age of abalone. Dataset originates from [UCI Machine Learning repository](https://archive.ics.uci.edu/ml/datasets/Abalone). 
+
+<hr />
+
+### Linear Regression Function 
+Implementation of linear regression and gradient descent algorithm from scratch to predict housing prices in Boston. Dataset originates from [UCI Machine Learning repository](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/). Refer to `lin_reg.ipynb` for codes and implementation, a summary of the results can be found in `technical_report.pdf`. 
+
+<hr />
+
