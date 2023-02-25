@@ -10,6 +10,7 @@
     - [Linear Regression Function](#linear-regression-function)
     - [Logistic Regression](#logistic-regression)
     - [Get Tweets Using Twitter API](#get-tweets-using-twitter-api)
+    - [Predict Baseball Player Salaries](#predict-baseball-player-salaries)
 
 ### Financial Calculator
 A simple python program to compute simple interest and compound interest based on principal amouunt, annual interest rate, and time period inputted by the user.
@@ -97,3 +98,9 @@ Refer to the `getTweets.ipynb`, `mapper.py` and `reducer.py` for the codes under
 
 <hr />
 
+### Predict Baseball Player Salaries
+Mini speed hackathon for predicting baseball players' salaries using regression techniques within 3 hours. The data contains major league from 1986 and 1987 seasons with 322 observations. The objective of the hackathon is to obtain the best possible ${R^2}$ score. 
+
+Refer to `baseball_regression.ipynb` for codes and results of various regression techniques such as `LinearRegressor`, `DecisionTreeRegressor`, `RandomForestRegressor` and `KNeighborsRegressor` under *8_baseball_salary_prediction* folder. Additionally, `RandomizedSearchCV` as opposed to `GridSearchCV` was also used to find an optimal parameter in view of time contraints. 
+
+<hr />
