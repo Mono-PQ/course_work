@@ -9,6 +9,7 @@
     - [K Nearest Neighours Function](#k-nearest-neighours-function)
     - [Linear Regression Function](#linear-regression-function)
     - [Logistic Regression](#logistic-regression)
+    - [Get Tweets Using Twitter API](#get-tweets-using-twitter-api)
 
 ### Financial Calculator
 A simple python program to compute simple interest and compound interest based on principal amouunt, annual interest rate, and time period inputted by the user.
@@ -86,3 +87,13 @@ Using logistic regression algorithm from scikit-learn library to classify bank n
 Ridge regression minimizes the weights of non-significant features while Lasso regression eliminates the weights of least important features (i.e., setting them to zero). Lasso regression automatically performs feature selection and outputs a sparse model.
 
 Refer the `log_reg.ipynb` for the codes and implementation. A summmary of the results can be found in `technical_report` under *6_logistic-regression* folder. 
+
+<hr />
+
+### Get Tweets Using Twitter API
+Fetch live tweets from Twitter and saved them in text file. Clean the text file by removing URL, converting letters to lower case, removing retweets and removing punctuation. Create a Hadoop mapper logic `mapper.py` and `reducer.py` to generate the word count of each word in the text file.
+
+Refer to the `getTweets.ipynb`, `mapper.py` and `reducer.py` for the codes under *7_TweeterAPI* folder.
+
+<hr />
+
