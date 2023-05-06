@@ -11,6 +11,7 @@
     - [Logistic Regression](#logistic-regression)
     - [Get Tweets Using Twitter API](#get-tweets-using-twitter-api)
     - [Predict Baseball Player Salaries](#predict-baseball-player-salaries)
+    - [Bike Ride Analysis](#bike-ride-analysis)
 
 ### Financial Calculator
 A simple python program to compute simple interest and compound interest based on principal amouunt, annual interest rate, and time period inputted by the user.
@@ -102,5 +103,17 @@ Refer to the `getTweets.ipynb`, `mapper.py` and `reducer.py` for the codes under
 Mini speed hackathon for predicting baseball players' salaries using regression techniques within 3 hours. The data contains major league from 1986 and 1987 seasons with 322 observations. The objective of the hackathon is to obtain the best possible ${R^2}$ score. 
 
 Refer to `baseball_regression.ipynb` for codes and results of various regression techniques such as `LinearRegressor`, `DecisionTreeRegressor`, `RandomForestRegressor` and `KNeighborsRegressor` under *8_baseball_salary_prediction* folder. Additionally, `RandomizedSearchCV` as opposed to `GridSearchCV` was also used to find an optimal parameter in view of time contraints. 
+
+<hr />
+
+### Bike Ride Analysis 
+A capstone project for understanding the customer behaviours of a bike rental company to support the marketing campaign and strategy of converting casual riders to annual members. Some of the key questions that the analysis aims to cover include:
+- What are the differences between an annual member and a casual rider?
+- Why would a casual rider buy an annual membership?
+- How does digital media affect the company's marketing tactices. 
+
+Refer to `Google Analytics Capstone Track 1 Case Study.pdf` for the full report on the analysis. Detailed code and documentation of data preprocessing and visualisation can be found in `cyclistic_cleaned.ipynb` and `cyclistic_analysis.ipynb` respectively. Additionally, `Analysis.html` is a pandas-profiling report that provides a basic statistical summary of the cleaned data set. 
+
+The website to download the data providede by Motivate International Inc can be reached using this [link](https://divvy-tripdata.s3.amazonaws.com/index.html). 
 
 <hr />
