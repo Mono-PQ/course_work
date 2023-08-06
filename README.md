@@ -12,6 +12,7 @@
     - [Get Tweets Using Twitter API](#get-tweets-using-twitter-api)
     - [Predict Baseball Player Salaries](#predict-baseball-player-salaries)
     - [Bike Ride Analysis](#bike-ride-analysis)
+    - [King Country, Washington Housing Sales Data Analysis (Tableau)](#king-country-washington-housing-sales-data-analysis-tableau)
 
 ### Financial Calculator
 A simple python program to compute simple interest and compound interest based on principal amouunt, annual interest rate, and time period inputted by the user.
@@ -115,5 +116,12 @@ A capstone project for understanding the customer behaviours of a bike rental co
 Refer to `Google Analytics Capstone Track 1 Case Study.pdf` for the full report on the analysis. Detailed code and documentation of data preprocessing and visualisation can be found in `cyclistic_cleaned.ipynb` and `cyclistic_analysis.ipynb` respectively. Additionally, `Analysis.html` is a pandas-profiling report that provides a basic statistical summary of the cleaned data set. 
 
 The website to download the data providede by Motivate International Inc can be reached using this [link](https://divvy-tripdata.s3.amazonaws.com/index.html). 
+
+<hr />
+
+### King Country, Washington Housing Sales Data Analysis (Tableau)
+A tableau dashboard for [house sales in King County, USA](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction) kaggle dataset. The data set contains homes sold between May 2014 and May 2015 in King County. No further cleaning is required as data set is already cleaned. Refer to `10_washington_house_sales` folder.
+
+Tableau Public Dashboard Link: [https://public.tableau.com/views/WashingtonHouseSaleDashboard/Dashboard?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/WashingtonHouseSaleDashboard/Dashboard?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
 
 <hr />
